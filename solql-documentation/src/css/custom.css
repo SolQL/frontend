@@ -1,0 +1,178 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #0077b6;
+  --ifm-color-primary-dark: #006ba4;
+  --ifm-color-primary-darker: #00659b;
+  --ifm-color-primary-darkest: #00537f;
+  --ifm-color-primary-light: #0083c8;
+  --ifm-color-primary-lighter: #0089d1;
+  --ifm-color-primary-lightest: #009bed;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-heading-font-family: "DM Sans", sans-serif;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme="dark"] {
+  --ifm-color-primary: #90e0ef;
+  --ifm-color-primary-dark: #6fd7ea;
+  --ifm-color-primary-darker: #5ed2e8;
+  --ifm-color-primary-darkest: #2cc4e1;
+  --ifm-color-primary-light: #b1e9f4;
+  --ifm-color-primary-lighter: #c2eef6;
+  --ifm-color-primary-lightest: #f4fcfd;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --primary-dark: #03045e;
+  --ifm-card-background-color: #0077b6;
+}
+
+main {
+  font-family: "DM Sans", sans-serif;
+}
+
+.card {
+  margin: 60px 500px;
+  height: 200px;
+  width: auto;
+  padding: 20px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+
+
+
+.header-container {
+  height: calc(100vh-30px);
+  margin-top: 50px;
+}
+
+.header-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.header-content {
+  font-family:"DM Sans", sans-serif; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-content h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.header-content p {
+  font-size: 25px;
+  text-align: center;
+}
+
+.header-buttons {
+  display: flex;
+  align-self:center;
+}
+
+.header-button {
+  border-radius: 10px;
+  border-color: #0077b6;
+  padding: 10px 20px;
+  background-color: #0077b6;
+  color: white;
+  transition: 0.3s;
+}
+
+.header-button:hover {
+  background-color: #03045e;
+  border-color: #03045e;
+  color: white;
+}
+
+
+/* BENEFIT BLOCKS*/
+
+.benefit-containter {
+  
+}
+
+
+.benefit-heading h3 {
+  font-size: 39.06px;
+  text-align: center;
+}
+
+.benefit-heading p {
+  font-size: 16px;
+  text-align: center;
+}
+
+dl {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 24px;
+  text-align: left;
+  margin: 30px 500px;
+}
+
+.block {
+  display: flex;
+  flex-basis: calc(50% - 12px);
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: column;
+  gap: 16px;
+  box-sizing: border-box;
+  background: #0077b6;
+  height: 300px;
+  padding: 48px;
+  border-radius: 10px;
+}
+
+.contact-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.contact-text h1 {
+  font-size: 39.06px;
+}
+
+.contact-text p {
+  font-size: 16px;
+}
+
+
+.contact-buttons {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.contact-buttons a {
+  border-radius: 10px;
+  border-color: #0077b6;
+  padding: 10px 20px;
+  background-color: #0077b6;
+  color: white;
+  transition: 0.3s;
+}
+
+.contact-buttons a:hover {
+  border-radius: 10px;
+  border-color: #03045e;
+  padding: 10px 20px;
+  background-color: #03045e;
+  color: white;
+  transition: 0.3s;
+}
