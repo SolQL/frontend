@@ -5,7 +5,7 @@ const ContactUs = () => {
     <div className="contact-container">
       <div className="contact-text">
         <h1>Contact Us!</h1>
-        <p>Hey! Feel free to reach out to us on discord or twitter!</p>
+        <p>Feel free to reach out to us on discord or twitter!</p>
       </div>
 
       <div className="contact-buttons">
