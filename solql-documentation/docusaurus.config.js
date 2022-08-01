@@ -33,7 +33,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/SolQL/frontend/blob/main/solql-documentation/',
         },
         blog: {
           showReadingTime: true,
@@ -70,7 +70,6 @@ const config = {
             position: 'right',
             label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'right'},
           {
             href: 'https://github.com/SolQL',
             label: 'GitHub',
@@ -91,25 +90,8 @@ const config = {
             ],
           },
           {
-            title: 'Community',
-            items: [
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/SolQL',
@@ -117,7 +99,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc.`,
+        copyright: `This documentation website is open-source under the MIT license`,
       },
       prism: {
         theme: lightCodeTheme,

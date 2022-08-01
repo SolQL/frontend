@@ -10,7 +10,7 @@ import {
 
 const GifComponent = () => {
   return (
-    <div class="card-demo-outline">
+
       <div class="card-outline">
         <div className="left-benefit">
           <IoKey size={"25px"} />
@@ -36,7 +36,7 @@ const GifComponent = () => {
           </Link>
         </div>
       </div>
-    </div>
+
   );
 };
 
