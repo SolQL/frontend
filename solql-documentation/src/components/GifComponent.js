@@ -11,7 +11,7 @@ import {
 const GifComponent = () => {
   return (
 
-      <div class="card-outline">
+      <div class="card-outline fade-2">
         <div className="left-benefit">
           <IoKey size={"25px"} />
           <h2>Free and Open Source</h2>

@@ -7,7 +7,7 @@ const Header = () => {
  return(
     <div className="header-container">
     <div className="header-row">
-      <div className="header-content">
+      <div className="header-content fade">
         <h1>Query On-Chain Data. <br/> Painfree.</h1>
         <p>Faster. Better. Cheaper</p>
         <div className="header-buttons">

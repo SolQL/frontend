@@ -134,6 +134,7 @@ main {
 .benefit-heading p {
   font-size: 16px;
   text-align: center;
+  opacity: 0.8;
 }
 
 dl {
@@ -173,9 +174,13 @@ dl p {
   line-height: 1.2em;
 }
 
+.block p {
+  opacity: 0.8;
+}
+
 .contact-container {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
   text-align: center;
 }
 
@@ -252,5 +257,60 @@ dl p {
 
 }
 
-@media screen and (max-width: 1664px) {
+
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+    transform: translateY(20);
+  }
+
+  50%{
+    transform: translate(0);
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-bottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+.reveal {
+  position: relative;
+  opacity: 0;
+}
+
+.reveal.active {
+  opacity: 1;
+}
+
+.active.fade-bottom {
+  animation: fade-bottom 1s ease-in;
+}
+
+
+.fade {
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+.fade-2 {
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
 }

@@ -9,7 +9,7 @@ import {
 
 const Benefits = () => {
   return (
-    <div className="benefit-container">
+    <div className="benefit-container reveal fade-bottom">
       <div className="benefit-heading">
         <h3>Never deploy a query contract ever again</h3>
         <p>Reduce protocol bloat, save on deployment costs, and make your projects more effiecent.</p>
