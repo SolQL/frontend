@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
@@ -12,6 +12,7 @@ import Head from "@docusaurus/Head";
 import GifComponent from "../components/GifComponent";
 import Benefits from "../components/Benefits";
 import ContactUs from "../components/ContactUs";
+import BrowserOnly from "@docusaurus/BrowserOnly";
 
 // function HomepageHeader() {
 //   const { siteConfig } = useDocusaurusContext();
@@ -49,9 +50,12 @@ export default function Home() {
       }
     }
   }
-  
-  window.addEventListener("scroll", reveal);
-  
+
+
+  useEffect(() => {
+    window.addEventListener("scroll", reveal)
+  })
+
   return (
     <Layout>
     <Header />
@@ -60,6 +64,7 @@ export default function Home() {
         <Benefits />
         <ContactUs />
       </main>
+      
     </Layout>
   );
 }
