@@ -302,7 +302,7 @@ dl p {
 .fade {
   opacity: 0;
   animation-name: fadeIn;
-  animation-duration: 3s;
+  animation-duration: 0.5s;
   animation-delay: 1s;
   animation-fill-mode: forwards;
 }
@@ -310,7 +310,7 @@ dl p {
 .fade-2 {
   opacity: 0;
   animation-name: fadeIn;
-  animation-duration: 3s;
-  animation-delay: 2s;
+  animation-duration: 2s;
+  animation-delay: 1.5s;
   animation-fill-mode: forwards;
 }
