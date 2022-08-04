@@ -303,7 +303,7 @@ dl p {
   opacity: 0;
   animation-name: fadeIn;
   animation-duration: 0.5s;
-  animation-delay: 1s;
+  animation-delay: 0.250s;
   animation-fill-mode: forwards;
 }
 
@@ -311,6 +311,6 @@ dl p {
   opacity: 0;
   animation-name: fadeIn;
   animation-duration: 2s;
-  animation-delay: 1.5s;
+  animation-delay: 0.35s;
   animation-fill-mode: forwards;
 }
