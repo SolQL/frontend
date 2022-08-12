@@ -239,6 +239,10 @@ dl p {
     margin: 10%;
   }
 
+  .header-row {
+    margin: 5% 10%;
+  }
+
   .card-outline {
     flex-direction: column;
     padding: 0.5em;
