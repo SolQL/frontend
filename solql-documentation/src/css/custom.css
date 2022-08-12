@@ -236,7 +236,7 @@ dl p {
 @media screen and (min-width: 150px) and (max-width: 996px) {
 
   .header-container {
-    margin-bottom: 10%;
+    margin-bottom: 5vh;
   }
 
   .main {
