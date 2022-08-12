@@ -225,14 +225,14 @@ dl p {
 
 .container-p {
   width: 50%;
-  line-height: 3em;
+  margin: 40px;
 }
 
 .container-p-div p {
   font-size: 20px;
 }
 
-@media screen and (min-width: 360px) and (max-width: 996px) {
+@media screen and (min-width: 150px) and (max-width: 996px) {
   .card-outline {
     flex-direction: column;
     padding: 0.5em;
@@ -269,6 +269,33 @@ dl p {
     flex-direction: column;
     height: auto;
     
+  }
+
+  .contact-buttons {
+    margin: 10px 50px;
+  }
+
+  .contact-text h1 p {
+    margin: 10% 10%;
+  }
+
+  .benefit-heading p {
+    margin: 20px 50px;
+  }
+  .benefit-heading h3 {
+    margin: 20px 20px;
+  }
+
+  dl {
+    margin: 5% 10%;
+  }
+
+  .contact-container {
+    align-items: center;
+  }
+
+  .contact-buttons {
+    flex-direction: column;
   }
 
 }
