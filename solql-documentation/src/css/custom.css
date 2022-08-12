@@ -240,13 +240,14 @@ dl p {
   }
 
   .header-row {
-    margin: 5% 10%;
+    margin: 5% 5%;
   }
 
   .card-outline {
     flex-direction: column;
-    padding: 0.5em;
-    margin: 20%;
+    padding: 0.7em;
+    margin: 5% 30% 10% 30%;
+    border-radius: 10px;
   }
 
   .left-benefit {
