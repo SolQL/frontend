@@ -1,16 +1,18 @@
 import React from "react";
 
-const ContactUs = () => {
+const ContactUs = ({h1, p}) => {
   return (
     <div className="contact-container">
       <div className="contact-text">
-        <h1>Contact Us!</h1>
-        <p>Feel free to reach out to us on discord or twitter!</p>
+        <h1>{h1}</h1>
+        <div className="container-p-div">
+          <p className="container-p">{p}</p>          
+        </div>
       </div>
 
       <div className="contact-buttons">
-        <a className="shayan-twitter" href="https://twitter.com/sha256yan">Shayan</a>
-        <a className="manansh-twitter" href="https://twitter.com/manansh_shukla">Manansh</a>
+        <a className="shayan-twitter" href="https://linktr.ee/sha256yan">Shayan - Technical Lead </a>
+        <a className="manansh-twitter" href="https://linktr.ee/manansh">Manansh - Design & UX</a>
       </div>
     </div>
   );

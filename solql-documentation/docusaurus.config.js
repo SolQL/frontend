@@ -71,6 +71,11 @@ const config = {
             label: 'Docs',
           },
           {
+            label: 'About us',
+            position: 'right',
+            to: '/aboutus',
+          },
+          {
             href: 'https://github.com/SolQL',
             label: 'GitHub',
             position: 'right',

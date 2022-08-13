@@ -62,7 +62,7 @@ export default function Home() {
       <main>
         <GifComponent />
         <Benefits />
-        <ContactUs />
+        <ContactUs h1="Contact Us!" p="We would love to chat!"/>
       </main>
       
     </Layout>

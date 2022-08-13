@@ -34,6 +34,7 @@
 
 main {
   font-family: "DM Sans", sans-serif;
+  padding-top: 2%;
 }
 
 .card {
@@ -182,6 +183,8 @@ dl p {
   margin-top: 100px;
   margin-bottom: 100px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-text h1 {
@@ -216,11 +219,39 @@ dl p {
   transition: 0.3s;
 }
 
-@media screen and (min-width: 360px) and (max-width: 996px) {
+.container-p-div {
+  display: flex;
+  justify-content: center;
+}
+
+.container-p {
+  width: 50%;
+  margin: 40px;
+}
+
+.container-p-div p {
+  font-size: 20px;
+}
+
+@media screen and (min-width: 150px) and (max-width: 996px) {
+
+  .header-container {
+    margin-bottom: 100px;
+  }
+
+  .main {
+    margin: 10%;
+  }
+
+  .header-row {
+    margin: 5% 5%;
+  }
+
   .card-outline {
     flex-direction: column;
-    padding: 0.5em;
-    margin: 20%;
+    padding: 0.7em;
+    margin: 50px 30% 10% 30%;
+    border-radius: 10px;
   }
 
   .left-benefit {
@@ -253,6 +284,33 @@ dl p {
     flex-direction: column;
     height: auto;
     
+  }
+
+  .contact-buttons {
+    margin: 10px 50px;
+  }
+
+  .contact-text h1 p {
+    margin: 10% 10%;
+  }
+
+  .benefit-heading p {
+    margin: 20px 50px;
+  }
+  .benefit-heading h3 {
+    margin: 20px 20px;
+  }
+
+  dl {
+    margin: 5% 10%;
+  }
+
+  .contact-container {
+    align-items: center;
+  }
+
+  .contact-buttons {
+    flex-direction: column;
   }
 
 }
