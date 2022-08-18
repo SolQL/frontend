@@ -250,9 +250,13 @@ dl p {
 
   .card-outline {
     flex-direction: column;
-    padding: 0.7em;
-    margin: 50px 30% 10% 30%;
+    padding: 1em;
+    margin-top: 10%;
     border-radius: 10px;
+    height: 50%;
+    outline-style: solid;
+    border-radius: 10px;
+    width: auto;
   }
 
   .left-benefit {
