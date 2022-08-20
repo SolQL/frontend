@@ -34,7 +34,7 @@
 
 main {
   font-family: "DM Sans", sans-serif;
-  padding-top: 2%;
+  padding-top: 2em;
 }
 
 .card {
@@ -73,7 +73,7 @@ main {
 }
 
 .header-container {
-  height: calc(100vh-600px);
+  height: 25vh;
   margin-top: 9%;
 }
 
@@ -233,25 +233,36 @@ dl p {
   font-size: 20px;
 }
 
-@media screen and (min-width: 150px) and (max-width: 996px) {
+@media screen and (min-width: 150px) and (max-width: 1000px) {
 
+  main {
+    display: block;
+  }
+
+  .header-content h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  
   .header-container {
-    margin-bottom: 100px;
+    height: 25vh;
+    margin-top: 9%;
   }
 
-  .main {
-    margin: 10%;
-  }
 
   .header-row {
-    margin: 5% 5%;
+    display: block;
   }
 
   .card-outline {
     flex-direction: column;
-    padding: 0.7em;
-    margin: 50px 30% 10% 30%;
+    padding: 1em;
+    margin-top: 10%;
     border-radius: 10px;
+    height: 50%;
+    outline-style: solid;
+    border-radius: 10px;
+    width: auto;
   }
 
   .left-benefit {
@@ -283,6 +294,7 @@ dl p {
   .benefit-container {
     flex-direction: column;
     height: auto;
+    padding-top: 40px;
     
   }
 
@@ -298,6 +310,7 @@ dl p {
     margin: 20px 50px;
   }
   .benefit-heading h3 {
+    font-size: 25px;
     margin: 20px 20px;
   }
 

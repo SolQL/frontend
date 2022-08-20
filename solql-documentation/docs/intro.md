@@ -16,3 +16,9 @@ The aspects of hardhat which SolQL uses will be covered here, but if you wish to
 
 
 
+:::caution
+
+Notice: SolQL is still in alpha. Breaking changes should be expected.
+
+:::
+

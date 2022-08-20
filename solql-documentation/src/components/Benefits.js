@@ -12,19 +12,19 @@ const Benefits = () => {
     <div className="benefit-container reveal fade-bottom">
       <div className="benefit-heading">
         <h3>Never deploy a query contract ever again</h3>
-        <p>Reduce protocol bloat, save on deployment costs, and make your projects more effiecent.</p>
+        <p>Reduce protocol bloat, save on deployment costs, and make your projects more efficient.</p>
       </div>
 
       <dl>
         <div className="block">
           <h3>Query data on seperate chains with just 1 tool.</h3>
-          <p>SolQL is deployed on multiple blockchains so you don't have to worry about cross-chain data gathering</p>
+          <p>SolQL is deployed on multiple blockchains so you don't have to worry about cross-chain data gathering.</p>
         </div>
         <div className="block">
           <h3>
             Save the hassle and cost of deploying your own query contract.
           </h3>
-          <p>Deploying your own query contract for every project is expensive and wasteful. </p>
+          <p>Deploying your own query contract for every project is expensive and wasteful. Use SolQL and save on costs!</p>
         </div>
         <div className="block">
           <h3>Hedge against rising transaction costs.</h3>
