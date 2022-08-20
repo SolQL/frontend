@@ -1,8 +1,25 @@
 ---
 sidebar_position: 3
 ---
+
+** Make sure you have followed the installation steps and have installed solql to follow along with this tutorial **
+
+
+You have two options for using solql.
+
+
+1)	The cli, which uses a provider of your choosing from your hardhat.config.js file.
+
+
+2)	The SolQL class, which you will need to manually pass a provider to.
+
+The first method is the quickest to get started, as it only requires you to add your provider to the hardhat.config.js file.
+
+The second method requires a set-up like what you can observe in the code snippet below.
+
+Note that both methods require the succcessful [** compilation**](#compilation) of the smart contract you intend to use.
+
 ## Usage within scripts
-Suppose you had a contract named Query1, and wanted to run it on goerli.
 
 
 
@@ -89,3 +106,10 @@ npx hardhat solql --contract-name <query contract name> --network-name <name of 
 
 
 
+## Compilation
+
+if you make changes to your smart contract, you will need to re-compile it using
+```bash
+npx hardhat compile
+```
+This may throw errors, which will most likely be as a result of bugs in the solidity code.

@@ -13,10 +13,6 @@ The aspects of hardhat which SolQL uses will be covered here, but if you wish to
 
 
 
-if you make changes to your smart contract, you will need to re-compile it using
-```bash
-npx hardhat compile
-```
-This may throw errors, which will most likely be as a result of bugs in the solidity code.
+
 
 
