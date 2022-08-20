@@ -20,3 +20,9 @@ npx hardhat compile
 This may throw errors, which will most likely be as a result of bugs in the solidity code.
 
 
+:::caution
+
+Notice: SolQL is still in alpha. Breaking changes should be expected.
+
+:::
+
